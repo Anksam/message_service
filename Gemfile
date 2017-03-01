@@ -2,7 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.0.1'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
-gem 'puma', '~> 3.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder'
+gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development do
   gem 'listen', '~> 3.0.5'
